@@ -35,7 +35,7 @@ class KeyloggerDetectorGUI:
 
     def scan_for_keyloggers(self):
         self.text_area.config(state=tk.NORMAL)
-        self.text_area.delete("1.0", tk.END)  # Clear previous results
+        self.text_area.delete("1.0", tk.END)  
         self.text_area.config(state=tk.DISABLED)
 
         detected_files = self.detect_keylogger_files()
