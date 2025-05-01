@@ -9,7 +9,7 @@ SECRET_KEY = b'j5uZ5X8DnqoLk7miCltsA8wrfNg-7dLGp1Ns5XGMQ4g='
 cipher_suite = Fernet(SECRET_KEY)
 
 # === Your Flask server endpoint
-SERVER_VIEW_URL = 'http://54.236.42.36:5000/view'
+SERVER_VIEW_URL = 'http://54.87.241.76:5000/view'
 
 class LiveDecryptionGUI:
     def __init__(self, root):
